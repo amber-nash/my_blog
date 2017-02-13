@@ -9,9 +9,13 @@
   </head>
 
   <body>
-    <%= link_to "Home", root_path %>
-    <%= link_to "New Post", new_post_path %>
-    
+    <nav class="nav-links">
+      <ul class="nav-ul">
+        <li class="nav-li"><%= link_to "Home", root_path %></li>
+          <li class="nav-li"><%= link_to "New Post", new_post_path %></li>
+        </ul>
+      </nav>
+
     <%= yield %>
   </body>
 </html>
