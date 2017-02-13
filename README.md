@@ -1,2 +1,7 @@
-# my_blog
-1st Rails App
+# README
+
+First exploration into Rails.
+
+* Ruby version 5
+
+* Posts follow CRUD convention
